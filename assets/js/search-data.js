@@ -30,7 +30,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/teaching/";
           },
-        },{id: "post-introduction-to-nonlinear-optimization",
+        },{id: "post-introduction-to-statistical-learning-theory",
+        
+          title: "Introduction to Statistical Learning Theory",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/introduction-to-statistical-learning-theory/";
+          
+        },
+      },{id: "post-introduction-to-nonlinear-optimization",
         
           title: "Introduction to Nonlinear Optimization",
         
@@ -39,17 +50,6 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2025/descent-methods/";
-          
-        },
-      },{id: "post-introduction-to-statistical-learning-theory",
-        
-          title: "Introduction to Statistical Learning Theory",
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2025/blog-one/";
           
         },
       },{id: "news-a-simple-inline-announcement",
