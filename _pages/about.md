@@ -23,6 +23,6 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
+Note: My personal website is still under construction. <br>
 
-
-I am a third year undergraduate majoring in computer science and applied math at UC Berkeley.
+Hi! I am a third-year undergraduate majoring in computer science and applied math at UC Berkeley. I am an undergraduate researcher at Berkeley Artificial Intelligence Research (BAIR), where I am fortunate to be advised by post-doc Andrew Wagenmaker and Professor Sergey Levine in the Robotic AI and Learning Lab. I am also affiliated with RISELab at Berkeley, where I have contributed to the Berkeley Function Calling Leaderboard project. Previously, I had the privilege of doing a summer internship at the National Center for High-Performance Computing, where I developed a prototype ReAct-based agent for agricultural question-answering.
