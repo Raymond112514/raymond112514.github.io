@@ -41,17 +41,6 @@ ninja.data = [{
             window.location.href = "/blog/2025/introduction-to-statistical-learning-theory/";
           
         },
-      },{id: "post-introduction-to-nonlinear-optimization",
-        
-          title: "Introduction to Nonlinear Optimization",
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2025/descent-methods/";
-          
-        },
       },{id: "news-a-simple-inline-announcement",
           title: 'A simple inline announcement.',
           description: "",
