@@ -30,7 +30,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/teaching/";
           },
-        },{id: "post-introduction-to-statistical-learning-theory",
+        },{id: "post-radamacher-complexity",
+        
+          title: "Radamacher Complexity",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/radamacher-complexity/";
+          
+        },
+      },{id: "post-introduction-to-statistical-learning-theory",
         
           title: "Introduction to Statistical Learning Theory",
         
