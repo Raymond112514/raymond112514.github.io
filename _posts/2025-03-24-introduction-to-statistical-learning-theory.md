@@ -12,9 +12,11 @@ tags: [optimization]
 }
 </style>
 
+This blog series is meant to serve as my course notes for STAT 210B.
+
 ### Empirical Risk Minimization
 
-In a standard supervised learning setup, we are given two spaces, $\mathcal{X}$ and $\mathcal{Y}$, and the goal is to learn a function $f \in \mathcal{F}$ that predicts $y \in \mathcal{Y}$ given $x \in \mathcal{X}$. This is typically done by solving the following optimization problem:
+In a standard supervised learning setup, we are given two spaces, $\mathcal{X}$ and $\mathcal{Y}$, and the goal is to learn a function $f \in \mathcal{F}$ that predicts $Y \in \mathcal{Y}$ given $X \in \mathcal{X}$. This is typically done by solving the following optimization problem:
 
 $$f^*=\text{argmin}_{f\in \mathcal{F}} \underbrace{\mathbb{E}_{X, Y\sim \mathcal{X}, \mathcal{Y}} [\ell(f(X), Y)]}_{R(f)}$$
 
