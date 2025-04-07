@@ -39,3 +39,7 @@ Discussion 4a: [RSA]({{'/assets/pdf/cs70_discussion/4a.pdf' | relative_url }}) <
 Discussion 4b: [Polynomials and Secret Sharing]({{'/assets/pdf/cs70_discussion/4b.pdf' | relative_url }}) <br>
 Discussion 5a: [Error Correcting Code]({{'/assets/pdf/cs70_discussion/5a.pdf' | relative_url }}) <br>
 Discussion 5b: [Counting]({{'/assets/pdf/cs70_discussion/5b.pdf' | relative_url }}) <br>
+Discussion 8a: [Discrete Probability Intro]({{'/assets/pdf/cs70_discussion/8a.pdf' | relative_url }}) <br>
+Discussion 8b: [Conditional Probability]({{'/assets/pdf/cs70_discussion/8b.pdf' | relative_url }}) <br>
+Discussion 10a: [Symmetry and Independence I]({{'/assets/pdf/cs70_discussion/10a.pdf' | relative_url }}) <br>
+Discussion 10b: [Symmetry and Independence II]({{'/assets/pdf/cs70_discussion/10b.pdf' | relative_url }}) <br>
