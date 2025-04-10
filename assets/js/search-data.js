@@ -30,29 +30,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/teaching/";
           },
-        },{id: "post-radamacher-complexity",
-        
-          title: "Radamacher Complexity",
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2025/radamacher-complexity/";
-          
-        },
-      },{id: "post-introduction-to-statistical-learning-theory",
-        
-          title: "Introduction to Statistical Learning Theory",
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2025/introduction-to-statistical-learning-theory/";
-          
-        },
-      },{id: "news-a-simple-inline-announcement",
+        },{id: "news-a-simple-inline-announcement",
           title: 'A simple inline announcement.',
           description: "",
           section: "News",},{id: "news-a-long-announcement-with-details",
