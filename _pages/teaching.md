@@ -16,7 +16,7 @@ nav_order: 6
 }
 </style>
 
-I really enjoy teaching. I love that every time I come back to the same material, I always gain new insights on how to understand a concept or solve a problem differently! Below, I've listed some of my teaching experiences.
+Teaching has always been something I enjoy, and it has played a major role in my educational journey. In the past, I’ve served on the course staff for CS70: Discrete Mathematics and Probability. It was an amazing experience working alongside other TAs, tutors, and students. Below is a list of my past teaching experiences.<br>
 
 ##### CS70: Discrete Math and Probability
 * Summer 2023, Fall 2023, Spring 2024, Summer 2024: Reader/Tutor
@@ -43,3 +43,5 @@ Discussion 8a: [Discrete Probability Intro]({{'/assets/pdf/cs70_discussion/8a.pd
 Discussion 8b: [Conditional Probability]({{'/assets/pdf/cs70_discussion/8b.pdf' | relative_url }}) <br>
 Discussion 10a: [Symmetry and Independence I]({{'/assets/pdf/cs70_discussion/10a.pdf' | relative_url }}) <br>
 Discussion 10b: [Symmetry and Independence II]({{'/assets/pdf/cs70_discussion/10b.pdf' | relative_url }}) <br>
+Discussion 11a: [Expectation]({{'/assets/pdf/cs70_discussion/11a.pdf' | relative_url }}) <br>
+Discussion 10b: [Variance]({{'/assets/pdf/cs70_discussion/11b.pdf' | relative_url }}) <br>
