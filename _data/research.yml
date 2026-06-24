@@ -1,0 +1,33 @@
+# Research entries shown on the about page (image left, description right).
+# Add one block per project/paper. Place preview images in assets/img/research/.
+entries:
+  - title: "Learning Process Rewards via Success Visitation Matching for Efficient RL"
+    image: assets/img/research/success_visitation_matching.png
+    authors: "<em>Raymond Tsao</em>*, Andrew Wagenmaker, Sergey Levine"
+    # venue: "ICML 2026"
+    url: https://arxiv.org/pdf/2606.23640
+    links:
+      - label: Paper
+        url: https://arxiv.org/pdf/2606.23640
+      - label: Website
+        url: https://success-visitation-matching.github.io
+  - title: "Posterior Behavioral Cloning: Pretraining BC Policies for Efficient RL Finetuning"
+    image: assets/img/research/posterior_bc.png
+    authors: "Andrew Wagenmaker*, Perry Dong, <em>Raymond Tsao</em>, Chelsea Finn, Sergey Levine"
+    venue: "ICML 2026"
+    url: https://arxiv.org/pdf/2512.16911
+    links:
+      - label: Paper
+        url: https://arxiv.org/pdf/2512.16911
+  - title: "Berkeley Function Calling Leaderboard V4: Web Search"
+    image: assets/img/research/bfcl_v4_web_search.png
+    authors: "Huanzhi Mao*, <em>Raymond Tsao</em>*, Jingzhuo Zhou*, Shishir G. Patil, Joseph E. Gonzalez"
+    venue: "Berkeley Function Calling Leaderboard (BFCL) V4"
+    url: https://gorilla.cs.berkeley.edu/blogs/15_bfcl_v4_web_search.html
+    links:
+      - label: Blog
+        url: https://gorilla.cs.berkeley.edu/blogs/15_bfcl_v4_web_search.html
+      - label: Leaderboard
+        url: https://gorilla.cs.berkeley.edu/leaderboard.html
+      - label: Code
+        url: https://github.com/ShishirPatil/gorilla/tree/main/berkeley-function-call-leaderboard
