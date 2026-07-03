@@ -9,10 +9,10 @@ related_posts: false
 
 Given two fields $F$ and $K$, we say $K$ is an extension of $F$ if $F$ is a subfield of $K$, which we will denote by $K/F$. In this case, $K$ can be viewed as a vector space over $F$. The dimension of this vector space is called the degree of the field extension and is denoted by $[K:F]$.
 
-A particularly convenient way of constructing field extensions is by adjoining roots of polynomials. Suppose $p(x)\in F[x]$ is irreducible, and we want to construct a field extension of $F$ in which $p(x)$ has a root. The idea is to start with the polynomial ring $\mathbb{F}[x]$ and force the relation $p(x)=0$, which can be done through quotienting by the ideal $(p(x))$. 
+A particularly convenient way of constructing field extensions is by adjoining roots of polynomials. Suppose $p(x)\in F[x]$ is irreducible, and we want to construct a field extension of $F$ in which $p(x)$ has a root. The idea is to start with the polynomial ring $\mathbb{F}[x]$ and force the relation $p(x)=0$, which can be done through quotienting by the ideal $(p(x))$.
 
-* **Observation 1:** The quotient $\mathbb{F}[x]/(p(x))$ is a field, since $(p(x))$ is a maximal ideal.
-* **Observation 2:** The element $x+(p(x)) \in \mathbb{F}[x]/(p(x))$ is now a root of $p(x)$, this is because
+- **Observation 1:** The quotient $\mathbb{F}[x]/(p(x))$ is a field, since $(p(x))$ is a maximal ideal.
+- **Observation 2:** The element $x+(p(x)) \in \mathbb{F}[x]/(p(x))$ is now a root of $p(x)$, this is because
 
 $$p(x+ (p(x))) = \sum_{i=0}^n a_i (x+(p(x)))^i = p(x) + (p(x)) = 0$$
 
@@ -76,15 +76,15 @@ The elements of this field are of the form $a+bx+cx^2$ where $a, b, c \in \mathb
 
 From the above examples, we can see a few patterns
 
-* **Observation 1:** If $p(x)$ has degree $n$, then the elements of $K=F[x]/(p(x))$ are of the form
+- **Observation 1:** If $p(x)$ has degree $n$, then the elements of $K=F[x]/(p(x))$ are of the form
 
-   $$
-   a_0 + a_1 x + \cdots + a_{n-1} x^{n-1}
-   $$
+  $$
+  a_0 + a_1 x + \cdots + a_{n-1} x^{n-1}
+  $$
 
-   where $a_i \in F$. The basis of $K$ as a vector space over $F$ is $\{1, x, x^2, \cdots, x^{n-1}\}$, and therefore $[K:F]=n$.
+  where $a_i \in F$. The basis of $K$ as a vector space over $F$ is $\{1, x, x^2, \cdots, x^{n-1}\}$, and therefore $[K:F]=n$.
 
-* **Observation 2:** The roots of $p(x)$ are algebraically indistinguishable. In particular, defining $x$ to be any root of $p(x)$ gives the same field extension. We will prove this in Theorem 2. 
+- **Observation 2:** The roots of $p(x)$ are algebraically indistinguishable. In particular, defining $x$ to be any root of $p(x)$ gives the same field extension. We will prove this in Theorem 2.
 
 So far we have constructed a field extension containing a root of a polynomial. It turns out that this construction gives the smallest such field extension. Let $F(\alpha)$ to be the smallest field that contains both $F$ and $\alpha$, we now show that if $\alpha$ is a root of $p(x)$, then our construction $F[x]/(p(x))$ is isomorphic to $F(\alpha)$.
 
@@ -154,4 +154,4 @@ This proves the claim.
 {% endproof %}
 {% endtheorem %}
 
-To see how this implies that the roots are algebraic indistinguishable, we apply the above theorem with $F'=F$ and $\phi=\mathrm{id}_F$, this then implies that $F(\alpha) \cong F(\beta)$. 
+To see how this implies that the roots are algebraic indistinguishable, we apply the above theorem with $F'=F$ and $\phi=\mathrm{id}_F$, this then implies that $F(\alpha) \cong F(\beta)$.

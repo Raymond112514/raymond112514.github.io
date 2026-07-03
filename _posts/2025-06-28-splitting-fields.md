@@ -24,16 +24,17 @@ Therefore the splitting field of $x^2-2$ over $\mathbb{Q}$ is $\mathbb{Q}(\sqrt{
 {% endexample %}
 
 {% example %}
-**Example 2.** Consider $p(x)=x^3-2\in \mathbb{Q}[x]$. Let $\alpha=\sqrt[3]{2}$ and $\omega$ be the primitive third root of unity. The roots of $p(x)$ are $\alpha,\alpha\omega,\alpha\omega^2$. 
+**Example 2.** Consider $p(x)=x^3-2\in \mathbb{Q}[x]$. Let $\alpha=\sqrt[3]{2}$ and $\omega$ be the primitive third root of unity. The roots of $p(x)$ are $\alpha,\alpha\omega,\alpha\omega^2$.
 
 The field $\mathbb{Q}(\alpha)$ is not a splitting field since it does not contain the complex roots $\alpha\omega$ and $\alpha\omega^2$. The splitting field is instead $\mathbb{Q}(\alpha,\omega)$. Over this field, we have
 
 $$
 x^3-2=(x-\alpha)(x-\alpha\omega)(x-\alpha\omega^2).
 $$
+
 {% endexample %}
 
-The following theorem shows that a splitting field of a polynomial always exists. 
+The following theorem shows that a splitting field of a polynomial always exists.
 
 {% theorem %}
 **Theorem.** Every nonconstant polynomial $p(x)\in F[x]$ has a splitting field over $F$. Moreover, if $\deg p=n$, then its splitting field is a finite extension of $F$, with degree at most $n!$.
@@ -134,4 +135,3 @@ extending $\varphi_1$. Therefore $\Phi$ also extends the original isomorphism $\
 {% endtheorem %}
 
 Taking $F'=F$ and letting $\varphi:F\to F$ be the identity map, we then see that any two splitting fields of $p(x)$ over $F$ are isomorphic by an isomorphism that fixes every element of $F$.
-

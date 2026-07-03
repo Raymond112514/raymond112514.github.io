@@ -1,55 +1,55 @@
 {% if site.data.research and site.data.research.entries.size > 0 %}
-<div class="publications">
-  <h2>research</h2>
-  <ol class="bibliography">
-    {% for item in site.data.research.entries %}
-      <li>
-        <div class="row align-items-start">
-          {% if item.image %}
-            <div class="col-md-4 col-sm-12 abbr">
-              {%
-                include figure.liquid
-                loading="eager"
-                path=item.image
-                sizes="(min-width: 768px) 280px, 95vw"
-                class="preview z-depth-1 rounded"
-                zoomable=true
-                avoid_scaling=true
-                alt=item.title
-              %}
-            </div>
-          {% endif %}
-          <div class="{% if item.image %}col-md-8{% else %}col-md-12{% endif %} col-sm-12">
-            <div class="title">
-              {% if item.url %}
-                <a href="{{ item.url }}">{{ item.title }}</a>
-              {% else %}
-                {{ item.title }}
-              {% endif %}
-            </div>
-            {% if item.authors %}
-              <div class="author">{{ item.authors }}</div>
+  <div class="publications">
+    <h2>research</h2>
+    <ol class="bibliography">
+      {% for item in site.data.research.entries %}
+        <li>
+          <div class="row align-items-start">
+            {% if item.image %}
+              <div class="col-md-4 col-sm-12 abbr">
+                {%
+                  include figure.liquid
+                  loading="eager"
+                  path=item.image
+                  sizes="(min-width: 768px) 280px, 95vw"
+                  class="preview z-depth-1 rounded"
+                  zoomable=true
+                  avoid_scaling=true
+                  alt=item.title
+                %}
+              </div>
             {% endif %}
-            {% if item.venue %}
-              <div class="periodical">
-                <em>{{ item.venue }}</em>
-                {% if item.venue_highlight %}
-                  <span class="research-venue-highlight">{{ item.venue_highlight }}</span>
+            <div class="{% if item.image %}col-md-8{% else %}col-md-12{% endif %} col-sm-12">
+              <div class="title">
+                {% if item.url %}
+                  <a href="{{ item.url }}">{{ item.title }}</a>
+                {% else %}
+                  {{ item.title }}
                 {% endif %}
               </div>
-            {% endif %}
-            {% if item.links and item.links.size > 0 %}
-              <div class="research-links">
-                {% for link in item.links %}
-                  {% unless forloop.first %}&nbsp;|&nbsp;{% endunless %}
-                  <a href="{{ link.url }}">{{ link.label }}</a>
-                {% endfor %}
-              </div>
-            {% endif %}
+              {% if item.authors %}
+                <div class="author">{{ item.authors }}</div>
+              {% endif %}
+              {% if item.venue %}
+                <div class="periodical">
+                  <em>{{ item.venue }}</em>
+                  {% if item.venue_highlight %}
+                    <span class="research-venue-highlight">{{ item.venue_highlight }}</span>
+                  {% endif %}
+                </div>
+              {% endif %}
+              {% if item.links and item.links.size > 0 %}
+                <div class="research-links">
+                  {% for link in item.links %}
+                    {% unless forloop.first %}&nbsp;|&nbsp;{% endunless %}
+                    <a href="{{ link.url }}">{{ link.label }}</a>
+                  {% endfor %}
+                </div>
+              {% endif %}
+            </div>
           </div>
-        </div>
-      </li>
-    {% endfor %}
-  </ol>
-</div>
+        </li>
+      {% endfor %}
+    </ol>
+  </div>
 {% endif %}

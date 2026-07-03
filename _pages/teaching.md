@@ -19,12 +19,14 @@ nav_order: 6
 Teaching has always been something I enjoy, and it has played a major role in my educational journey. In the past, I’ve served on the course staff for CS70: Discrete Mathematics and Probability. It was an amazing experience working alongside other TAs, tutors, and students. Below is a list of my past teaching experiences.<br>
 
 ##### CS70: Discrete Math and Probability
-* Summer 2023, Fall 2023, Spring 2024, Summer 2024: Reader/Tutor
-* Fall 2024: TA, overall teaching effective rating 6.54, with department average 6.21. 
-* Spring 2025: TA
+
+- Summer 2023, Fall 2023, Spring 2024, Summer 2024: Reader/Tutor
+- Fall 2024: TA, overall teaching effective rating 6.54, with department average 6.21.
+- Spring 2025: TA
 
 ##### MATH H104: Honors Real Analysis
-* Fall 2023: Reader
+
+- Fall 2023: Reader
 
 For my CS70 discussion section, I also prepared slides during the discussions (since I'm a slow writer). The slides for each section are posted below. Note that this counts as unofficial course material, so if you are a CS70 student, please use the official notes and lectures as the only reliable source of truth. There might be some typos on the slides, and some animations could cause the formatting to look off...
 

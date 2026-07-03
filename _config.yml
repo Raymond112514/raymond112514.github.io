@@ -4,7 +4,7 @@
 
 title: blank # leave empty, remove "blank"
 first_name: Raymond
-middle_name: 
+middle_name:
 last_name: Tsao
 contact_note: >
   You can even add a little note about which of these is the best way to reach you.
@@ -104,7 +104,7 @@ collections:
     output: true
   projects:
     output: true
-  courses:    # Add this new collection
+  courses: # Add this new collection
     output: true
 
 # -----------------------------------------------------------------------------

@@ -47,4 +47,4 @@ latest_posts:
 
 Hi! I am a fifth-year master's student at UC Berkeley, doing research at Berkeley Artificial Intelligence Research (BAIR), where I am fortunate to be advised by post-doc Andrew Wagenmaker and Professor Sergey Levine in the Robotic AI and Learning Lab. In the past, I was also affiliated with RISELab at Berkeley, where I contributed to the Berkeley Function Calling Leaderboard project.
 
-{% include research.liquid %} 
+{% include research.liquid %}
