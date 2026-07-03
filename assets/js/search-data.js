@@ -9,7 +9,14 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-courses",
+  },{id: "nav-notes",
+          title: "Notes",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/notes/";
+          },
+        },{id: "nav-courses",
           title: "Courses",
           description: "",
           section: "Navigation",
@@ -23,26 +30,37 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/teaching/";
           },
-        },{id: "post-radamacher-complexity",
+        },{id: "post-splitting-fields",
         
-          title: "Radamacher Complexity",
+          title: "Splitting Fields",
         
-        description: "",
+        description: "Existence of a field extension in which a polynomial splits completely.",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2025/radamacher-complexity/";
+            window.location.href = "/notes/2025/splitting-fields/";
           
         },
-      },{id: "post-empirical-risk-minimization",
+      },{id: "post-algebraic-extension",
         
-          title: "Empirical Risk Minimization",
+          title: "Algebraic Extension",
         
-        description: "",
+        description: "Algebraic elements, minimal polynomials, and the equivalence of algebraicity and finite degree.",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2025/introduction-to-statistical-learning-theory/";
+            window.location.href = "/notes/2025/algebraic-extensions/";
+          
+        },
+      },{id: "post-field-extension",
+        
+          title: "Field Extension",
+        
+        description: "Constructing field extensions by adjoining roots of irreducible polynomials.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/notes/2025/field-extension/";
           
         },
       },{id: "news-a-simple-inline-announcement",
