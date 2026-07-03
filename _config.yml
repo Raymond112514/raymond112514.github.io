@@ -573,10 +573,10 @@ jsonresume:
   - references
 
 # -----------------------------------------------------------------------------
-# Blog
+# Notes
 # -----------------------------------------------------------------------------
 
-permalink: /blog/:year/:title/
+permalink: /notes/:year/:title/
 lsi: false
 
 # Pagination

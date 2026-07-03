@@ -42,6 +42,12 @@
   --global-danger-block-bg: #ffe0e0;
   --global-danger-block-text: #600;
   --global-danger-block-title: #c00;
+  --global-example-block-bg: #f4f3ef;
+  --global-example-block-border: rgba(0, 0, 0, 0.08);
+  --global-example-block-title: #5c5a54;
+  --global-theorem-block-bg: #fdf2f5;
+  --global-theorem-block-border: rgba(160, 80, 105, 0.14);
+  --global-theorem-block-title: #8a4a5e;
 
   #light-toggle-system {
     padding-left: 10px;
@@ -113,6 +119,12 @@ html[data-theme="dark"] {
   --global-danger-block-bg: #ffe0e0;
   --global-danger-block-text: #600;
   --global-danger-block-title: #c00;
+  --global-example-block-bg: #2a2a2e;
+  --global-example-block-border: rgba(255, 255, 255, 0.1);
+  --global-example-block-title: #c8c6c0;
+  --global-theorem-block-bg: #2d2428;
+  --global-theorem-block-border: rgba(255, 180, 200, 0.12);
+  --global-theorem-block-title: #e8b4c4;
 
   .only-light {
     display: none;

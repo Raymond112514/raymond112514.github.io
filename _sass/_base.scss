@@ -132,6 +132,76 @@ blockquote {
   }
 }
 
+blockquote.block-example,
+.block-example {
+  border: 1px solid var(--global-example-block-border);
+  border-radius: 6px;
+  background-color: var(--global-example-block-bg);
+  font-size: inherit;
+  margin: 1.5em 0;
+  padding: 1.25rem 1.5rem;
+
+  > :last-child {
+    margin-bottom: 0;
+  }
+
+  strong {
+    color: var(--global-example-block-title);
+    font-weight: 600;
+  }
+}
+
+blockquote.block-example {
+  border-left: 1px solid var(--global-example-block-border);
+}
+
+blockquote.block-theorem,
+.block-theorem {
+  border: 1px solid var(--global-theorem-block-border);
+  border-radius: 6px;
+  background-color: var(--global-theorem-block-bg);
+  font-size: inherit;
+  margin: 1.5em 0;
+  padding: 1.25rem 1.5rem;
+
+  > :last-child {
+    margin-bottom: 0;
+  }
+
+  strong {
+    color: var(--global-theorem-block-title);
+    font-weight: 600;
+  }
+
+  .theorem-proof {
+    margin-top: 1rem;
+
+    summary {
+      color: var(--global-theorem-block-title);
+      cursor: pointer;
+      font-weight: 600;
+      padding: 0.5rem 0;
+      user-select: none;
+    }
+
+    .theorem-proof-body {
+      padding-bottom: 0.25rem;
+
+      > :first-child {
+        margin-top: 0;
+      }
+
+      > :last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+}
+
+blockquote.block-theorem {
+  border-left: 1px solid var(--global-theorem-block-border);
+}
+
 // Checklist
 
 ul.task-list {
@@ -905,6 +975,39 @@ html.transition *:before,
 html.transition *:after {
   transition: all 750ms !important;
   transition-delay: 0 !important;
+}
+
+// Note typography (individual note pages only)
+.post.note {
+  border-left: none;
+
+  .post-header {
+    text-align: center;
+    margin-bottom: 2rem;
+    border-left: none;
+  }
+
+  .post-title {
+    margin-bottom: 0;
+  }
+
+  .post-header,
+  .post-content {
+    font-family: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+    border-left: none;
+  }
+
+  pre,
+  code {
+    font-family: monospace;
+  }
+}
+
+body.note-page {
+  progress,
+  .progress-container {
+    display: none !important;
+  }
 }
 
 // Extra Markdown style (post Customization)
