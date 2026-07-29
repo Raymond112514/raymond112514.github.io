@@ -4,7 +4,7 @@ entries:
   - title: "Learning Process Rewards via Success Visitation Matching for Efficient RL"
     image: assets/img/research/success_visitation_matching.png
     authors: "<em>Raymond Tsao</em>*, Andrew Wagenmaker, Sergey Levine"
-    # venue: "ICML 2026"
+    venue: "Under review"
     url: https://arxiv.org/pdf/2606.23640
     links:
       - label: Paper
@@ -14,7 +14,7 @@ entries:
   - title: "Posterior Behavioral Cloning: Pretraining BC Policies for Efficient RL Finetuning"
     image: assets/img/research/posterior_bc.png
     authors: "Andrew Wagenmaker*, Perry Dong, <em>Raymond Tsao</em>, Chelsea Finn, Sergey Levine"
-    venue: "ICML 2026"
+    venue: "ICML 2026 (Spotlight)"
     url: https://arxiv.org/pdf/2512.16911
     links:
       - label: Paper
