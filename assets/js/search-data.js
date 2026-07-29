@@ -41,9 +41,9 @@ ninja.data = [{
             window.location.href = "/notes/2025/splitting-fields/";
           
         },
-      },{id: "post-algebraic-extension",
+      },{id: "post-algebraic-extensions",
         
-          title: "Algebraic Extension",
+          title: "Algebraic Extensions",
         
         description: "Algebraic elements, minimal polynomials, and the equivalence of algebraicity and finite degree.",
         section: "Posts",
