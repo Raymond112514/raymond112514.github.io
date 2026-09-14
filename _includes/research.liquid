@@ -1,10 +1,15 @@
 {% if site.data.research and site.data.research.entries.size > 0 %}
   <div class="publications">
-    <h2>research</h2>
+    <h2 class="research-heading">Research</h2>
+    {% assign research_intro = include.intro | default: site.data.research.intro | strip %}
+    {% if research_intro != "" %}
+      <div class="research-intro">{{ research_intro | markdownify }}</div>
+    {% endif %}
+    <h2 class="publications-heading">Publications</h2>
     <ol class="bibliography">
       {% for item in site.data.research.entries %}
         <li>
-          <div class="row align-items-start">
+          <div class="row align-items-center">
             {% if item.image %}
               <div class="col-md-4 col-sm-12 abbr">
                 {%
@@ -38,14 +43,22 @@
                   {% endif %}
                 </div>
               {% endif %}
-              {% if item.links and item.links.size > 0 %}
-                <div class="research-links">
+              <div class="research-links">
+                {% if item.links and item.links.size > 0 %}
                   {% for link in item.links %}
                     {% unless forloop.first %}&nbsp;|&nbsp;{% endunless %}
                     <a href="{{ link.url }}">{{ link.label }}</a>
                   {% endfor %}
-                </div>
-              {% endif %}
+                {% endif %}
+                {% if item.tldr %}
+                  {% if item.links and item.links.size > 0 %}&nbsp;|&nbsp;{% endif %}
+                  <span class="research-tldr">
+                    <input type="checkbox" id="tldr-{{ forloop.index }}" class="research-tldr-toggle">
+                    <label for="tldr-{{ forloop.index }}" class="research-tldr-label">TLDR</label>
+                    <span class="research-tldr-body">{{ item.tldr }}</span>
+                  </span>
+                {% endif %}
+              </div>
             </div>
           </div>
         </li>

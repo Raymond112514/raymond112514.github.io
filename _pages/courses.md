@@ -16,12 +16,20 @@ nav_order: 5
 }
 </style>
 
-Below is a list of courses I've taken during my undergrad.
+Below is a list of relevant courses I've taken during my undergrad.
+
+#### Fall 2026 <br>
+
+COMPSCI 284A (Graduate): Foundations of Computer Vision <br>
+MATH 214 (Graduate): Differential Topology <br>
+MATH C218A (Graduate): Probability Theory <br>
+
+#### Spring 2026 <br>
+
+Breadth courses <br>
 
 #### Spring 2025 <br>
 
-COMPSCI 199: Supervised Independent Study <br>
-COMPSCI 370: Adaptive Instruction Methods <br>
 MCELLBI C100A: Biophysical Chemistry <br>
 STAT 210B (Graduate): Theoretical Statistics <br>
 
@@ -40,9 +48,6 @@ STAT 155: Game Theory <br>
 STAT C241B (Graduate): Advanced Topics in Learning and Decision Making <br>
 INDENG 223 (Graduate): Financial Engineering Systems II <br>
 INDENG 290 (Graduate): Stochastic Optimization <br>
-ENGLISH R1B: Reading and Composition <br>
-ECON 119: Psychology and Economics <br>
-UGIS 192C: Supervised Research: Biological Sciences <br>
 
 #### Fall 2023 <br>
 
@@ -53,8 +58,6 @@ COMPSCI 198: Deep Learning for Visual Data <br>
 MATH 202A (Graduate): Introduction to Topology and Analysis <br>
 MATH 221 (Graduate): Advanced Matrix Computations <br>
 UGBA 103: Introduction to Finance <br>
-UGBA 137: Special Topics in Finance <br>
-UGIS 192C: Supervised Research: Biological Sciences <br>
 
 #### Spring 2023 <br>
 

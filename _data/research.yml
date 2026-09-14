@@ -6,6 +6,7 @@ entries:
     authors: "<em>Raymond Tsao</em>*, Andrew Wagenmaker, Sergey Levine"
     venue: "Under review"
     url: https://arxiv.org/pdf/2606.23640
+    tldr: "We found that a discriminator trained to classify state-action pairs from successful and failed trajectories can be used as a dense process reward, which leads to significantly faster RL finetuning."
     links:
       - label: Paper
         url: https://arxiv.org/pdf/2606.23640
@@ -16,6 +17,7 @@ entries:
     authors: "Andrew Wagenmaker*, Perry Dong, <em>Raymond Tsao</em>, Chelsea Finn, Sergey Levine"
     venue: "ICML 2026 (Spotlight)"
     url: https://arxiv.org/pdf/2512.16911
+    tldr: "We show that, instead of fitting the observed demonstrations, training a policy to model the posterior distribution of the demonstrator's behavior given the demonstration dataset leads to a policy that is easier to finetune with RL."
     links:
       - label: Paper
         url: https://arxiv.org/pdf/2512.16911
@@ -24,6 +26,7 @@ entries:
     authors: "Huanzhi Mao*, <em>Raymond Tsao</em>*, Jingzhuo Zhou*, Shishir G. Patil, Joseph E. Gonzalez"
     venue: "Berkeley Function Calling Leaderboard (BFCL) V4"
     url: https://gorilla.cs.berkeley.edu/blogs/15_bfcl_v4_web_search.html
+    tldr: "We build a challenging, multihop web search benchmark to evaluate LLM agents' ability to search for and synthesize information across multiple web sources, and identify common failure modes in state-of-the-art LLMs."
     links:
       - label: Blog
         url: https://gorilla.cs.berkeley.edu/blogs/15_bfcl_v4_web_search.html
