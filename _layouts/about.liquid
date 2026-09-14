@@ -16,7 +16,10 @@ layout: default
 
   <article>
     {% if page.profile %}
-      <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
+      <div
+        class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}"
+        style="--profile-scale: {{ page.profile.scale | default: 1 }}; --profile-offset-y: {{ page.profile.offset_y | default: 0 }}px; --profile-gap-x: {{ page.profile.gap_x | default: 16 }}px;"
+      >
         {% if page.profile.image %}
           {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
           {% if page.profile.image_circular %}

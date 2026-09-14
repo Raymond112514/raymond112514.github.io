@@ -7,8 +7,7 @@ subtitle: <a href="mailto:r112358@berkeley.edu">Email</a>&nbsp;&middot;&nbsp;<a 
 profile:
   align: right
   image: Raymond-Tsao.png
-  image_circular: false # crops the image to make it circular
-  crop_k: 0 # pixels cropped from the left and from the right
+  image_circular: false
   scale: 0.65 # 1.0 is the default size; smaller than 1 shrinks the photo
   offset_y: 30 # pixels to shift the photo up
   gap_x: 24 # pixels between the photo and the text to its left
@@ -34,37 +33,6 @@ latest_posts:
 
 .post {
   line-height: 2.0;  /* or 1.25 if you prefer */
-}
-
-.profile {
-  --profile-crop-k: {{ page.profile.crop_k | default: 0 }}px;
-  --profile-scale: {{ page.profile.scale | default: 1 }};
-  --profile-offset-y: {{ page.profile.offset_y | default: 0 }}px;
-  --profile-gap-x: {{ page.profile.gap_x | default: 16 }}px;
-  overflow: hidden;
-  margin-top: calc(-1 * var(--profile-offset-y));
-}
-
-.profile.float-right {
-  margin-left: var(--profile-gap-x);
-}
-
-@media (min-width: 576px) {
-  .profile {
-    width: calc(30% * var(--profile-scale));
-  }
-}
-
-.profile figure {
-  margin: 0;
-  overflow: hidden;
-}
-
-.profile img {
-  width: calc(100% + 2 * var(--profile-crop-k)) !important;
-  max-width: none;
-  margin-left: calc(-1 * var(--profile-crop-k));
-  display: block;
 }
 
 .publications .title a {

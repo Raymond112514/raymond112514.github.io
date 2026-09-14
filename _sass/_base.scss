@@ -265,6 +265,14 @@ ul.task-list input[type="checkbox"] {
 .profile {
   width: 100%;
 
+  figure,
+  img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+
   .more-info {
     margin-bottom: 5px;
     margin-top: 5px;
@@ -287,13 +295,18 @@ ul.task-list input[type="checkbox"] {
 
 @media (min-width: 576px) {
   .profile {
-    width: 30%;
+    width: calc(30% * var(--profile-scale, 1));
+    margin-top: calc(-1 * var(--profile-offset-y, 0px));
 
     .address {
       p {
         display: block;
       }
     }
+  }
+
+  .profile.float-right {
+    margin-left: var(--profile-gap-x, 1rem);
   }
 }
 
