@@ -6,11 +6,11 @@ subtitle: <a href="mailto:r112358@berkeley.edu">Email</a>&nbsp;&middot;&nbsp;<a 
 
 profile:
   align: right
-  image: Raymond-Tsao.jpg
+  image: Raymond-Tsao.png
   image_circular: false # crops the image to make it circular
-  crop_k: 40 # pixels cropped from the left and from the right
+  crop_k: 0 # pixels cropped from the left and from the right
   scale: 0.65 # 1.0 is the default size; smaller than 1 shrinks the photo
-  offset_y: 50 # pixels to shift the photo up
+  offset_y: 30 # pixels to shift the photo up
   gap_x: 24 # pixels between the photo and the text to its left
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
