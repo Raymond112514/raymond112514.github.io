@@ -8,7 +8,7 @@ profile:
   align: right
   image: Raymond-Tsao.png
   image_circular: false
-  scale: 0.65 # 1.0 is the default size; smaller than 1 shrinks the photo
+  scale: 0.55 # 1.0 is the default size; smaller than 1 shrinks the photo
   offset_y: 30 # pixels to shift the photo up
   gap_x: 24 # pixels between the photo and the text to its left
 
