@@ -30,7 +30,29 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/teaching/";
           },
-        },{id: "post-splitting-fields",
+        },{id: "post-topological-manifolds",
+        
+          title: "Topological Manifolds",
+        
+        description: "Definitions and basic properties of topological manifolds.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/notes/2026/topological-manifolds/";
+          
+        },
+      },{id: "post-separable-extensions",
+        
+          title: "Separable Extensions",
+        
+        description: "Separable polynomials, elements, and field extensions.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/notes/2025/separable-extensions/";
+          
+        },
+      },{id: "post-splitting-fields",
         
           title: "Splitting Fields",
         
