@@ -4,6 +4,8 @@ title: Field Extension
 description: Constructing field extensions by adjoining roots of irreducible polynomials.
 date: 2025-06-26
 categories: notes
+series: Galois Theory
+series_order: 1
 related_posts: false
 ---
 

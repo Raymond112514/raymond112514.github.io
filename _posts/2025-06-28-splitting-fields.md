@@ -4,6 +4,8 @@ title: Splitting Fields
 description: Existence of a field extension in which a polynomial splits completely.
 date: 2025-06-28
 categories: notes
+series: Galois Theory
+series_order: 3
 related_posts: false
 ---
 

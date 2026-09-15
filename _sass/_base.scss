@@ -1023,6 +1023,93 @@ body.note-page {
   }
 }
 
+.notes-index {
+  .post-header {
+    margin-bottom: 1.5rem;
+  }
+
+  .notes-series {
+    border-bottom: 1px solid var(--global-divider-color);
+    padding: 1.15rem 0 1.35rem;
+  }
+
+  .notes-series:last-child {
+    border-bottom: none;
+  }
+
+  .notes-series summary {
+    cursor: pointer;
+    list-style: none;
+    font-size: 1.6rem;
+    line-height: 1.3;
+  }
+
+  .notes-series-title {
+    font-weight: 500;
+  }
+
+  .notes-series summary::-webkit-details-marker {
+    display: none;
+  }
+
+  .notes-series summary::marker {
+    content: "";
+  }
+
+  .notes-series summary::before {
+    content: "▸";
+    display: inline-block;
+    width: 1.15rem;
+    margin-right: 0.15rem;
+    color: var(--global-text-color-light);
+  }
+
+  .notes-series[open] summary::before {
+    content: "▾";
+  }
+
+  .notes-series-status {
+    color: var(--global-text-color-light);
+  }
+
+  .notes-empty {
+    margin: 1rem 0 0 1.3rem;
+    color: var(--global-text-color-light);
+  }
+
+  .notes-series-list {
+    list-style: none;
+    margin: 0.85rem 0 0;
+    padding: 0 0 0 1.3rem;
+  }
+
+  .notes-series-list li {
+    display: flex;
+    align-items: baseline;
+    gap: 1.15rem;
+    padding: 0.55rem 0;
+  }
+
+  .notes-num {
+    flex: 0 0 1.6rem;
+    color: var(--global-text-color-light);
+    font-variant-numeric: tabular-nums;
+  }
+
+  .notes-series-list a {
+    color: var(--global-text-color);
+    text-decoration: none;
+  }
+
+  .notes-series-list a:hover {
+    color: var(--global-theme-color);
+  }
+
+  .notes-planned {
+    color: var(--global-text-color-light);
+  }
+}
+
 // Extra Markdown style (post Customization)
 .post {
   .post-meta {

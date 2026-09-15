@@ -4,6 +4,8 @@ title: Algebraic Extensions
 description: Algebraic elements, minimal polynomials, and the equivalence of algebraicity and finite degree.
 date: 2025-06-27
 categories: notes
+series: Galois Theory
+series_order: 2
 related_posts: false
 ---
 
