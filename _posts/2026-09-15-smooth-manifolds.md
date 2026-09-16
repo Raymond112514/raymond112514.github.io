@@ -105,4 +105,28 @@ $$\varphi^+\circ\sigma_N^{-1}(s)=\frac{2s}{1+s^2},\qquad |s|>1$$
 Both are smooth on their domains, and the remaining pairs are checked similarly. Since the union of the two atlases is a smooth atlas, from Theorem 1, they determine the same smooth structure on $S^1$.
 {% endexample %}
 
+### Smooth Maps
 
+The definition of smooth functions generalizes naturally to maps between manifolds. Let $f: M\to N$ be a map between smooth manifolds. We say that $f$ is smooth at $p\in M$ if there are smooth coordinate charts $(U,\varphi)$ around $p$ and $(V,\psi)$ around $f(p)$, with $f(U)\subset V$, such that the coordinate representation
+
+$$\psi\circ f\circ\varphi^{-1}:\varphi(U)\to\psi(V)$$
+
+is smooth in the Euclidean sense. We call $f$ a smooth map if it is smooth at every point of $M$. The next theorem shows that smoothness is independent of the choice of smooth charts.
+
+{% include figure.liquid path="assets/img/notes/diff_top/smooth_manifolds/smooth_map.svg" class="img-fluid" caption="Figure 5. Smoothness of a map between manifolds is defined using local coordinates. The charts $\varphi$ and $\psi$ express $f$ as the Euclidean map $\overline{f}=\psi\circ f\circ\varphi^{-1}$. Both routes through the diagram send $p$ to $\psi(f(p))$." alt="Smoothness of a map between manifolds via local coordinates" %}
+
+{% theorem %}
+**Theorem (Independence of coordinates).** Let $f:M\to N$ be a map between smooth manifolds, and let $p\in M$. If $f$ is smooth at $p$, then for any smooth charts $(U^{\prime},\varphi^{\prime})$ around $p$ and $(V^{\prime},\psi^{\prime})$ around $f(p)$, the coordinate representation $\psi^{\prime}\circ f\circ(\varphi^{\prime})^{-1}$ is defined and smooth on a neighborhood of $\varphi^{\prime}(p)$.
+
+{% proof %}
+Since $f$ is smooth at $p$, there are smooth charts $(U,\varphi)$ and $(V,\psi)$, with $f(U)\subset V$, such that $\psi\circ f\circ\varphi^{-1}$ is smooth. In particular, the restriction of $f$ to $U$ is continuous, so
+
+$$W=U\cap U'\cap f^{-1}(V')$$
+
+is an open neighborhood of $p$. On $\varphi^{\prime}(W)$, we have
+
+$$\psi'\circ f\circ(\varphi')^{-1}=(\psi'\circ\psi^{-1})\circ(\psi\circ f\circ\varphi^{-1})\circ(\varphi\circ(\varphi')^{-1}).$$
+
+The middle map is smooth by assumption, and the two transition maps are smooth because the charts belong to the given smooth structures. Thus, the composition is smooth on a neighborhood of $\varphi^{\prime}(p)$.
+{% endproof %}
+{% endtheorem %}
