@@ -30,7 +30,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/teaching/";
           },
-        },{id: "post-topological-manifolds",
+        },{id: "post-smooth-manifolds",
+        
+          title: "Smooth Manifolds",
+        
+        description: "Definitions and basic properties of smooth manifolds.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/notes/2026/smooth-manifolds/";
+          
+        },
+      },{id: "post-topological-manifolds",
         
           title: "Topological Manifolds",
         
