@@ -9,6 +9,7 @@ nav_order: 1
 <div class="post notes-index">
   <header class="post-header">
     <h1 class="post-title">Notes</h1>
+    <p class="post-description">These are notes from my coursework and self-study.</p>
   </header>
 
   {% assign notes_posts = site.posts | where_exp: "post", "post.categories contains 'notes'" %}

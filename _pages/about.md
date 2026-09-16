@@ -109,7 +109,7 @@ latest_posts:
 
 Hi! I’m Raymond, a fifth-year master’s student at UC Berkeley studying computer science and applied mathematics. I’m advised by [Andrew Wagenmaker](https://wagenmaker.github.io/) and [Sergey Levine](https://people.eecs.berkeley.edu/~svlevine/) in the [Robotic AI and Learning Lab](http://rail.eecs.berkeley.edu/)@[BAIR](http://bair.berkeley.edu/). Previously, I worked on LLM evaluation at Berkeley’s RISELab, where I co-led the development of the Berkeley Function Calling Leaderboard (BFCL) v4 web search benchmark.
 
-**I’m seeking research engineer and machine learning engineer roles in robotics, starting after my graduation in Spring 2027.**
+**I’m seeking research engineer and machine learning engineer roles starting after my graduation in Spring 2027, with particular interests in robotics and reinforcement learning.**
 
 {% capture research_intro %}
 My research focuses on efficient RL finetuning of pretrained robot policies. Vision language action (VLA) models provide a promising starting point for general-purpose robotics, but deploying them in new real-world settings often requires further adaptation. I am interested in how RL can enable this adaptation efficiently, through two complementary directions:

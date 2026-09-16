@@ -1,10 +1,6 @@
 # Topic index on /notes/.
 # Published notes appear automatically from posts with a matching `series` field.
-# Use `upcoming` for titles you want in the outline before the note exists.
 - title: Galois Theory
   open: true
 - title: Differential Topology
   open: true
-  upcoming:
-    - Smooth Structures
-    - Smooth Maps

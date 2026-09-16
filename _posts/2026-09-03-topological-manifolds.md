@@ -9,7 +9,9 @@ series_order: 1
 related_posts: false
 ---
 
-A topological manifold is a space that, near each point, looks like Euclidean space $\mathbb{R}^n$. For example, the curve in Figure~* is a one-dimensional topological manifold--if we focus on a small piece around any point, we can imagine straightening it out into a piece of the real line. 
+A topological manifold is a space that, near each point, looks like Euclidean space $\mathbb{R}^n$. For example, the curve in Figure 1 is a one-dimensional topological manifold--if we focus on a small piece around any point, we can imagine straightening it out into a piece of the real line (Figure 1).
+
+{% include figure.liquid path="assets/img/notes/diff_top/topological_manifolds/intro.svg" class="img-fluid" fig_class="note-figure-lg" caption="Figure 1. A small piece of a curve around a point can be straightened into an open interval of the real line." alt="A curve locally straightened to an open interval" %}
 
 Formally, we say that $M$ is a topological manifold if 
 1. $M$ is Hausdorff
@@ -32,7 +34,7 @@ $$\varphi(q)=(x_1(q),\ldots,x_n(q))\in\mathbb{R}^n$$
 
    $$U^+=\{(x,y)\in S^1:y>0\}$$
 
-   We can use the projection onto the $x$-axis as our coordinate map:
+   We can use the projection onto the $x$-axis as our coordinate map (Figure 2a):
 
    $$\varphi^+:U^+\to(-1,1),\qquad \varphi^+(x,y)=x$$
 
@@ -40,15 +42,17 @@ $$\varphi(q)=(x_1(q),\ldots,x_n(q))\in\mathbb{R}^n$$
 
    $$(\varphi^+)^{-1}(t)=(t,\sqrt{1-t^2})$$
    
-   Therefore, $(U^+,\varphi^+)$ is a coordinate chart around every point in the upper semicircle. We can apply the same construction to the lower semicircle to obtain a chart $(U^-,\varphi^-)$. These two charts cover everything except $(1,0)$ and $(-1,0)$. To cover these remaining points, we add charts on the open right and left semicircles, denoted by $V^+$ and $V^-$, projecting onto the $y$-axis instead. Together, the charts $(U^+,\varphi^+)$, $(U^-,\varphi^-)$, $(V^+,\psi^+)$, and $(V^-,\psi^-)$ cover the whole circle, showing that every point has an open neighborhood homeomorphic to an open interval in $\mathbb{R}$.
+   Therefore, $(U^+,\varphi^+)$ is a coordinate chart around every point in the upper semicircle. We can apply the same construction to the lower semicircle to obtain a chart $(U^-,\varphi^-)$. These two charts cover everything except $(1,0)$ and $(-1,0)$. To cover these remaining points, we add charts on the open right and left semicircles, denoted by $V^+$ and $V^-$, projecting onto the $y$-axis instead.    Together, the charts $(U^+,\varphi^+)$, $(U^-,\varphi^-)$, $(V^+,\psi^+)$, and $(V^-,\psi^-)$ cover the whole circle, showing that every point has an open neighborhood homeomorphic to an open interval in $\mathbb{R}$ (Figure 2b).
 
-Remark: We can apply the same argument to show that $n$-dimensional sphere $S^n$ is a topological manifold. 
+{% include figure.liquid path="assets/img/notes/diff_top/topological_manifolds/S1_chart.svg" class="img-fluid" caption="Figure 2. (a) The coordinate map $\varphi^{+}$ projects the open upper semicircle $U^{+}$ onto $(-1,1)$. (b) The four chart domains $U^{\pm}$ and $V^{\pm}$ cover $S^{1}$." alt="Coordinate charts covering the circle S^1" %}
+
+Remark: We can apply the same argument to show that $n$-dimensional sphere $S^n$ is a topological manifold.
 {% endexample %}
 
 {% example %}
 **Example 3 (Projective Space).** The $n$-dimensional real projective space $\mathbb{RP}^n$ is the set of one-dimensional subspaces of $\mathbb{R}^{n+1}$. On $\mathbb{R}^{n+1}\setminus\{0\}$, define $x\sim y$ if $x=\lambda y$ for some nonzero scalar $\lambda$. Then
 $$\mathbb{RP}^n=(\mathbb{R}^{n+1}\setminus\{0\})/{\sim},$$
-equipped with the quotient topology.
+equipped with the quotient topology (Figure 3a).
 
 We claim that $\mathbb{RP}^n$ is an $n$-dimensional topological manifold. Write $q(x)=[x]$ for the quotient map. This map is open because, for every open set $U$,
 $$q^{-1}(q(U))=\bigcup_{\lambda\neq0}\lambda U$$
@@ -62,7 +66,7 @@ is open.
 
 2. $\mathbb{RP}^n$ is second countable. Let $\{B\_k\}\_{k\in\mathbb{N}}$ be a countable basis for $\mathbb{R}^{n+1}\setminus\{0\}$. Since $q$ is continuous, open, and surjective, $\{q(B\_k)\}\_{k\in\mathbb{N}}$ is a countable basis for $\mathbb{RP}^n$.
 
-3. We now construct a chart for each point in $\mathbb{RP}^n$. For each $i=0,\ldots,n$, let
+3. We now construct a chart for each point in $\mathbb{RP}^n$ (Figure 3b). For each $i=0,\ldots,n$, let
 
    $$U_i=\{[x_0:\cdots:x_n]:x_i\neq0\}$$
 
@@ -75,6 +79,8 @@ is open.
    $$\varphi_i^{-1}(u_1,\ldots,u_n)=[u_1:\cdots:u_i:1:u_{i+1}:\cdots:u_n]$$
 
    Thus each $U_i$ is homeomorphic to $\mathbb{R}^n$.
+
+{% include figure.liquid path="assets/img/notes/diff_top/topological_manifolds/RP1_chart.svg" class="img-fluid" caption="Figure 3. (a) A visualization of $\mathbb{RP}^{1}$: each line through the origin represents an element, such as $[u]$, $[v]$, or $[w]$. (b) The coordinate map $\varphi_{0}$ assigns each nonvertical line the value $t$ determined by its intersection with $x=1$ at $(1,t)$. The red vertical line is excluded from this chart but is covered by a second chart, obtained by intersecting nonhorizontal lines with $y=1$ (which is the coordinate map $\varphi_1$.)" alt="Coordinate charts covering RP^1" %}
 
 {% endexample %}
 
